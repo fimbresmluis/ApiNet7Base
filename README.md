@@ -7,3 +7,5 @@ Install-Package Microsoft.EntityFrameworkCore.Tools
 
 Scaffold-DbContext "Server=.\SQLEXPRESS;Database=BD;user id=User;password=****;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
 
+JWT
+Modificar la configuración en el archivo appsettings.json y en el JWT/JwtManager.cs
